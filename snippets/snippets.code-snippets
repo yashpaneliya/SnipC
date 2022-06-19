@@ -1,0 +1,8 @@
+{
+    "Using namespace std":{
+        "prefix": "using namespace std;",
+        "body": "using namespace std;",
+        "description": "Using namespace std",
+        "scope": "source.cpp",
+    },
+}
