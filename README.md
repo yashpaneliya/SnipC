@@ -1,65 +1,47 @@
-# cpp-snippets README
+# Fast-C++ 
 
-This is the README for your extension "cpp-snippets". After writing up a brief description, we recommend including the following sections.
+**Fast C++** is a VS code extension for C & C++ language snippets to save your precious time. This extension contains some cool spells to speed up your coding by providing code snippets and boilerplates 🚀
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
+ - C++ language snippets
+ 
+ | Prefix(Shortcut) | Snippet of | Description |
+  |---|---|---|
+  |`using`| Using namespace std | Using namespace std |
+  |`include`| #include<> | Include a cpp library | 
+  |`define`|#define |Define preprocessors|
+  |`if`| Simple If | Create a simple if decision maker |
+  |`if`| Simple If-else | Create a simple if-else decision maker |
+  |`if`| if else if | Create a Else if ladder |
+  |`for`| For Loop | Create a for loop block |
+  |`fin`| For...in Loop | Create a for...in loop block |
+  |`while`| While Loop | Create a while loop block |
+  |`do`| Do While Loop |Create a do-while loop block |
+  |`switch`| Switch statement | Create a switch block |
+  |`case`| Switch case | Create a case block |
+  |`default`| Default case | Create a default case block |
+  |`cpp`| Basic C++ code template | Create a generally used C++ code template |
+  |`try`|try-catch| Create a try-catch block|
+  |`throw`|Throw statement| Create a throw exception statement |
+  |`catch`|Catch block|Create a catch block|
+  |`try`|Try-catch-finally|Create try-catch block with finally block|
+  |`cin`|cin>>|cin statement|
+  |`cout`|cout<<|cout statement|
+  |`funct`|Normal function|Create a normal c/c++ function|
+  |`forev`|for(;;)|Infinite for loop|
+  |`while`|while(true)|Infinite while loop|
+  |`do`|do...while(true)|Infinite do...while loop|
+  |`struct`|struct{}|Create a structure|
+  |`union`|union{}|Create an union|
+  
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+VS Code
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+No issues till now 😁
+If you find any bug or want a new snippet, do create an issue or submitting a PR will be awesome!!
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
